@@ -1,6 +1,6 @@
-import { Flex, Heading, Icon, Link } from "@chakra-ui/react";
+import { Flex, Heading, Icon, Link } from '@chakra-ui/react';
 
-import { FiHome } from "react-icons/fi";
+import { FiHome } from 'react-icons/fi';
 
 export default function dashboard() {
   return (
