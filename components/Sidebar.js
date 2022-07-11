@@ -5,13 +5,7 @@ import { FiBox, FiDollarSign, FiHome, FiPieChart } from 'react-icons/fi';
 
 const Sidebar = () => {
   return (
-    <Flex
-      w="15%"
-      flexDir="column"
-      alignItems="center"
-      backgroundColor="#020202"
-      color="#fff"
-    >
+    <>
       <Flex flexDir="column" justifyContent="space-between" h="100vh">
         <Flex flexDir="column" as="nav">
           <Heading
@@ -82,7 +76,7 @@ const Sidebar = () => {
           <Text textAlign="center">Calvin West</Text>
         </Flex>
       </Flex>
-    </Flex>
+    </>
   );
 };
 
